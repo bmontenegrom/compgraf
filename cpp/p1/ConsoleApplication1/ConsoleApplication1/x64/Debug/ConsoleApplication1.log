@@ -1,0 +1,11 @@
+﻿  ConsoleApplication1.cpp
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_GetError sin resolver al que se hace referencia en la función "bool __cdecl initSDL(void)" (?initSDL@@YA_NXZ)
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_CreateWindow sin resolver al que se hace referencia en la función "bool __cdecl initSDL(void)" (?initSDL@@YA_NXZ)
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_GL_GetCurrentWindow sin resolver al que se hace referencia en la función SDL_main
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_GL_SwapWindow sin resolver al que se hace referencia en la función SDL_main
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_PollEvent sin resolver al que se hace referencia en la función "bool __cdecl handleEvents(void)" (?handleEvents@@YA_NXZ)
+ConsoleApplication1.obj : error LNK2019: símbolo externo SDL_Init sin resolver al que se hace referencia en la función "bool __cdecl initSDL(void)" (?initSDL@@YA_NXZ)
+ConsoleApplication1.obj : error LNK2019: símbolo externo __imp_glClearColor sin resolver al que se hace referencia en la función "bool __cdecl initSDL(void)" (?initSDL@@YA_NXZ)
+ConsoleApplication1.obj : error LNK2019: símbolo externo __imp_glClear sin resolver al que se hace referencia en la función SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\repos\compgraf\cpp\p1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 9 externos sin resolver
